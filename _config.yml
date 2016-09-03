@@ -1,0 +1,18 @@
+name: cake
+baseurl: ""
+
+date_format: "%Y-%m-%d"
+
+# Build settings
+kramdown:
+  input: GFM
+permalink: pretty
+
+# Third-party services
+# Leave empty to disable
+google_analytics:
+disqus_shortname:
+
+sass:
+    sass_dir: _sass
+    style: compressed

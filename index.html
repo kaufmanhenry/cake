@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<div class="home">
+    <ul class="posts">
+        {% for post in site.posts %}
+        <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><span>{{ post.date | date: site.date_format }}</span></li>
+        {% endfor %}
+    </ul>
+</div>

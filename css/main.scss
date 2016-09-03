@@ -1,0 +1,20 @@
+---
+# The scss file which include files from _sass/
+---
+
+@charset "utf-8";
+
+$base-font-family: -apple-system, 'SF UI Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$base-font-size:   1.25rem;
+$small-font-size:  0.875rem;
+$base-line-height: 1.6;
+
+$text-color:   #333;
+$link-color:   #0074d9;
+$meta-color:   #aaa;
+$border-color: #ddd;
+
+@import "color";
+@import "base";
+@import "layout";
+@import "syntax";
